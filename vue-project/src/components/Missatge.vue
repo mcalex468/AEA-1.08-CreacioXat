@@ -11,12 +11,12 @@
   import { ref } from 'vue';
   import { defineProps, defineEmits } from 'vue';
   
-  // DProps
+  // Props
   const props = defineProps({
     autor: String
   });
 
-
+  // Emit 
   const emit = defineEmits(['enviar-missatge']);
   
   // Variable reactiva per emmagatzemar el text del missatge

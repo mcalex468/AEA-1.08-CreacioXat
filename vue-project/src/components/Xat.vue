@@ -5,7 +5,7 @@
         <!-- Llista de missatges -->
         <ul>
             <li v-for="(missatge, index) in missatges" :key="index">
-            <bold>{{ missatge.autor }}</bold>:{{ missatge.text }}
+           {{ missatge.autor }} : {{ missatge.text }}
             </li>
         </ul>
     

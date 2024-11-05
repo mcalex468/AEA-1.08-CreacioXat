@@ -6,7 +6,9 @@
 </template>
 
 <script setup>
+
 import Xat from './components/Xat.vue';
+
 </script>
 
 <style scoped>
